@@ -1,0 +1,96 @@
+/* Banner Style */
+.sticky-banner {
+    position: sticky;
+    top: 0;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.banner-container {
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.banner-logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.banner-text {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* Navigation Style */
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+}
+
+.church-img {
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+/* Row 1 Container Style */
+.r1-container {
+    display: flex;
+    align-items: center;
+}
+
+.r1-content{
+    padding: 10px;
+    flex: 1;
+    max-width: 700px;
+    font-size: 25px;
+}
+
+/* Row 2 Container Style */
+.r2-container {
+    display: flex;
+    text-align: center;
+}
+
+.r2-content{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.r2-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Row 3 Container Style */
+
+.r3-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(230, 225, 225);
+    margin-top: 50px;
+    height: 500px;
+}
+
+.r3-content{
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
