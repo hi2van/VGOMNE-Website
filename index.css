@@ -1,0 +1,114 @@
+/* Banner Style */
+.sticky-banner {
+    position: sticky;
+    top: 0;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.banner-container {
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.banner-logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.banner-text {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+/* Navigation Style */
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+}
+
+.church-img {
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+.homepage-image h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.homepage-image p {
+    text-align: center;
+}
+
+/* Row 1 Container Style */
+.r1-container {
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.r1-content{
+    padding: 10px;
+}
+
+.r1-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Row 2 Container Style */
+
+.r2-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(230, 225, 225);
+    margin-top: 50px;
+}
+
+.r2-content{
+    padding: 10px;
+    flex: 1;
+}
+
+/* Row 3 Container Style */
+
+.r3-container {
+    display: flex;
+    align-items: center;
+}
+
+.r3-content{
+    padding: 10px;
+    flex: 1;
+}
+
+/* Row 4 Container Style */
+
+.r4-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(230, 225, 225);
+}
+
+.r4-content{
+    padding: 10px;
+    flex: 1; 
+}
+
+footer {
+    text-align: center;
+
+}
